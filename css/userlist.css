@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    font-family: "Zen Kaku Gothic New", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 97, 134);
+    background-color: #f09c7a;
+  }
+  
+  .logo{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #006186 ;
+  }
+  
+  span{
+    font-family: "Zen Kaku Gothic New", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+  }
+  
+  header {
+    height: 4.5rem;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #f09c7a;
+  }
+  
+  header h1 {
+    margin: 0; /* 余白をリセット */
+    grid-column: 2;
+  }
+  
+  header img{
+    height: 2.5rem;
+    justify-self: end;
+    cursor: pointer;
+  }
+  
+  .form-wrapper{
+    background-color:#f09c7a;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .form1-msg{
+    text-align: center;
+  }
+  
+  h2{
+    margin: 0;
+  }
+  
+  .form1-msg h2{
+    font-size: 1.2rem;
+    font-family: "Zen Kaku Gothic New", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  table{
+    width: 80%;
+    margin: auto;
+  }
+
+  td{
+    border: solid #006186 1px;
+  }
+
+  .td-top{
+    background-color: #006186;
+    color: #f09c7a;
+  }
+
+  .td-btn{
+    border: none;
+  }
+
+  .td-btn img{
+    width: 1rem;
+  }
